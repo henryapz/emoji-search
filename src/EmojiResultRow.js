@@ -14,6 +14,7 @@ export default class EmojiResultsRow extends PureComponent {
     return (
       <div
         className="component-emoji-result-row copy-to-clipboard"
+        aria-label="item"
         data-clipboard-text={this.props.symbol}
       >
         <img alt={this.props.title} src={src} />

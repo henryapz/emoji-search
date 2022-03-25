@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "devDependencies": {
+    "@testing-library/react": "^12.1.4",
     "prettier": "^1.17.1",
     "react-scripts": "^3.0.1"
   },
